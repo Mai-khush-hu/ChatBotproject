@@ -1,9 +1,9 @@
 import streamlit as st
 import math
 
-st.title("🧮 Calculator Program")
+st.title(" 🧮 Calculator Program")
 
-a = st.number_input("Enter Total numbers for operations",value=0.0)
+a = st.number_input("Enter a Number",value=0.0)
 b = st.number_input("Enter another Number",value=0.0)
 
 operation = st.selectbox("Choose Operations",["Add","Subtract","Multiply","Divide","Modulus","Floor Division","Power","Square root","Log Values base 10"])
